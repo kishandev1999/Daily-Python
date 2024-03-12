@@ -1,0 +1,8 @@
+1. primitive-data-types.py
+2. type-error.py
+3. mathematical-operators.py
+4. body-mass-index.py
+5. number-manipulation-and-f-strings.py
+6. life-in-weeks.py
+7. Project-tip-calculator.py
+

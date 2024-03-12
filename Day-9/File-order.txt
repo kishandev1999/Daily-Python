@@ -1,0 +1,6 @@
+1. dictionary.py
+2. grading-program.py
+3. nesting-list-and-dictionaries.py
+4. dictionary-in-list.py
+5. bidding-auction-flowchart.png
+6. secret-auction-program.py

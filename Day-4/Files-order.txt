@@ -1,0 +1,6 @@
+1. random-module.py - my_module.py
+2. heads-or-tails.py
+3. lists.py
+4. banker-roulette.py
+5. treasure-map.py
+6. Project-rock-paper-scissors.py

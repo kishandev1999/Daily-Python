@@ -1,0 +1,6 @@
+1. python-loops.py
+2. average-height.py
+3. high-score.py
+4. adding-even-numbers.py
+5. the-fizzbuzz-job.py
+6. Project-password-generator.py

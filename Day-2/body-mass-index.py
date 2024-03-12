@@ -1,0 +1,6 @@
+height = input()
+weight = input()
+weight_as_int = int(weight)
+height_as_int = int(height)
+bmi = weight_as_int/(height_as_int * height_as_int)
+print(bmi)

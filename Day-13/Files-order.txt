@@ -1,0 +1,2 @@
+1. debugging.py
+2.python-tutor-debugging.png

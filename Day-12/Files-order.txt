@@ -1,0 +1,4 @@
+1.local-vs-global-scope.py
+2.block-scope.py
+3.global-variable-and-constants.py
+4.Project-guess-the-number 

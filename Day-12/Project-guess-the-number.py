@@ -9,7 +9,7 @@ print(logo)
 number=random.randint(1,100)
 #print(number)
 
-
+print("WELCOME TO GUESS THE NUMBER GAME")
 mode=input("Choose the mode you want to play 'easy' or 'hard' : ").lower()
 
 def number_compare(guessed_number):

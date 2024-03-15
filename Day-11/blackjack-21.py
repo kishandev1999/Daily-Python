@@ -4,7 +4,7 @@ os.system('cls')
 
 from blackjack_logo import logo
 print(logo)
-#DECK:
+#DECK:  
 cards_list = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 user_cards=random.sample(cards_list,2)
 computer_cards=random.sample(cards_list,2)
@@ -22,7 +22,7 @@ def calculate_score(cards):
         return 0
     
     if 11 in cards and sum(cards) > 21:
-        cards_list.remove(11)
+        cards_list.remove(11)           
         cards_list.append(1)
 
     

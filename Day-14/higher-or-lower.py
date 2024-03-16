@@ -4,24 +4,6 @@ from art import logo,vs
 from data import data
 os.system('cls')
 
-#CHOOSING THE RANDOM PERSON NAME
-
-#print(data[0]['name'])
-raw_option=""
-
-
-
-'''
-def compare_persons(guess):
-    score = 0
-    
-        #option_B=random.choice(data)
-        
-    elif (guess == 'b') and (option_A['follower_count'] < option_B['follower_count']):
-        #option_A=random.choice(data)
-    else:
-        return 0
-'''
 option_A=random.choice(data)
 option_B=random.choice(data)
 
@@ -29,7 +11,6 @@ option_B=random.choice(data)
 def high_low_game():
     is_continue = True
     global option_A, option_B
-    option_C=""
     score =0
     while is_continue:
         print(logo)
@@ -73,15 +54,6 @@ def high_low_game():
 
 high_low_game()        
 
-'''
- if output == 0:
-            print("GAME OVER")
-            is_continue = False
-        else:
-            score+=1
-            print(score)
-'''
-    
     
     
     

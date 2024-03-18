@@ -1,0 +1,142 @@
+''' 
+We are in the finance department of the Great Kingdom of Karatia!
+
+The King has asked you to write a function which returns the maximum balance at the end of any day, along with the day of the maximum balance.
+
+The month starts on the 0th day and you are provided, as an input, with the account balance at the end of the 0th day. You are also given a sorted list of records of credits and debits. Note that there can be multiple records in a day.
+
+account_balance_1 = 100
+account_records_1 = [
+   #["Day", "CREDIT/DEBIT", "AMOUNT"]
+    ["1", "CREDIT", "100"],
+    ["2", "DEBIT",  "200"],
+    ["2", "CREDIT", "150"],
+    ["2", "CREDIT", "150"],
+    ["2", "CREDIT", "150"],
+    ["2", "CREDIT", "150"],
+    ["3", "CREDIT", "800"],
+    ["3", "DEBIT",  "500"],
+    ["4", "DEBIT",  "400"]
+];
+
+The total at the end of each day:
+| Day | Balance |
+|  0  |   100   |
+|  1  |   200   |
+|  2  |   150   |
+|  3  |   450   |
+|  4  |    50   |
+
+Sample output:
+find_maximum_balance(account_balance_1, account_records_1) → {3, 450}
+
+Explanation: Only the balance at the end of the day should count towards the overall maximum
+
+
+account_balance_2 = 100000
+account_records_2 = [
+   #["Date", "CREDIT/DEBIT", "AMOUNT"]
+    ["1", "CREDIT", "1000"],
+    ["2", "DEBIT",  "2000"],
+    ["2", "CREDIT", "1325"],
+    ["3", "CREDIT", "80000"],
+    ["3", "DEBIT",  "75000"],
+    ["4", "DEBIT",  "40000"],
+    ["5", "CREDIT", "10000"],
+    ["6", "DEBIT",  "4000"],
+    ["6", "CREDIT", "50000"],
+    ["7", "CREDIT", "2000"]
+];
+
+account_balance_3 = 500000
+account_records_3 = [
+   #["Date", "CREDIT/DEBIT", "AMOUNT"]
+    ["1", "DEBIT",  "10000"],
+    ["2", "CREDIT", "2000"],
+    ["3", "CREDIT", "6000"],
+    ["4", "DEBIT",  "40000"]
+]
+
+account_balance_4 = 10000
+account_records_4 = [
+   #["Date", "CREDIT/DEBIT", "AMOUNT"]
+    ["2", "CREDIT", "1000"],
+    ["4", "DEBIT",  "1100"]
+]
+
+account_balance_5 = -14000
+account_records_5 = [
+   #["Date", "CREDIT/DEBIT", "AMOUNT"]
+	["1", "DEBIT", 	"2000"],
+	["5", "CREDIT", "2100"]
+]
+
+find_maximum_balance(account_balance_1, account_records_1) → {3, 450}
+find_maximum_balance(account_balance_2, account_records_2) → {7, 123325}
+find_maximum_balance(account_balance_3, account_records_3) → {0, 500000}
+find_maximum_balance(account_balance_4, account_records_4) → {2, 11000} or {3, 11000}
+find_maximum_balance(account_balance_5, account_records_5) → {5, -13900}
+Explanation: Some days may be missing.
+
+
+Complexity analysis variables:
+
+N: entries in the account records
+
+
+
+
+'''
+
+
+account_balance_1 = 100
+
+account_records_1 = [
+	["1", "CREDIT", "100"],
+	["2", "DEBIT", "200"],
+	["2", "CREDIT", "150"],
+	["3", "CREDIT", "800"],
+	["3", "DEBIT", "500"],
+	["4", "DEBIT", "400"]
+]
+
+account_balance_2 = 100000
+
+account_records_2 = [
+	["1", "CREDIT", "1000"],
+	["2", "DEBIT", "2000"],
+	["2", "CREDIT", "1325"],
+	["3", "CREDIT", "80000"],
+	["3", "DEBIT", "75000"],
+	["4", "DEBIT", "40000"],
+	["5", "CREDIT", "10000"],
+	["6", "DEBIT", "4000"],
+	["6", "CREDIT", "50000"],
+	["7", "CREDIT", "2000"]
+]
+
+account_balance_3 = 500000
+
+account_records_3 = [
+	["1", "DEBIT", "10000"],
+	["2", "CREDIT", "2000"],
+	["3", "CREDIT", "6000"],
+	["4", "DEBIT", "40000"]
+]
+
+account_balance_4 = 10000
+
+account_records_4 = [
+	["2", "CREDIT", "1000"],
+	["4", "DEBIT", "1100"]
+]
+
+account_balance_5 = -14000
+
+account_records_5 = [
+	["1", "DEBIT", "2000"],
+	["5", "CREDIT", "2100"]
+]
+
+
+# find_maximum_balance(account_balance_4, account_records_4) → {2, 11000} or {3, 11000}

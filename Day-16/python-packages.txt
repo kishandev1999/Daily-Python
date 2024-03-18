@@ -1,0 +1,24 @@
+***********************PYTHON PACKAGES***********************
+Till now we used the modules to use. A file create to use in code called module.
+But, the package is different.
+PACKAGE is nothing but a bunch of code that other people written.
+
+EXAMPLE:
+if we want to document the some pokemons and their stats in table.
+In ASCII, it is very complicate to create the tables for each data.
+So, we can search for package that other developers are created and we can achieve our goal.
+The place where we get that is : pypi.org
+#REFERENCE : https://pypi.org/
+
+In this site, try to search "PrettyTable"
+#https://pypi.org/project/prettytable/
+read the description for it : "A simple Python library for easily displaying tabular data in a visually appealing ASCII table format"
+If you click on homepage. It will take you the code documentation [tutorial.wiki] 
+
+***********************INSTALLING PACKAGES***********************
+1. CLICK ON PYTHON ICON
+2. IN PACKAGE SECTION, CLICK ON SEARCH.
+3. CLICK ON PRETTYTABLE PACKAGE TO INSTALL 
+4. ONCE, IT IS INSTALLED, IN PACKAGES, YOU'LL SEE THAT PRETTYTABLE
+5. import prettytable -- with this line we can use it
+6. rightclick on the word prettytable and click on "GO TO DEFINITION" to see the source code of prettytable package

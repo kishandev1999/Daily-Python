@@ -1,0 +1,18 @@
+******************************** OOPS *******************************************
+1. On DAY-15, we tried the coffee machine. If you check the code, the code was so complex.The functions 
+   are so many and we are using them randomly in same place in the code make other also hard to understand.
+2. Hence, we are using this concept called "OBJECT ORIENTED PROGRAMMING" (OOPS).
+3. For simple understanding, Assume that you are running a hotel. In hotel there are many roles people play 
+   to make job easier and simple.
+   EX: - RECEPTIONIST will welcome the customers and allocate their seats to diners.
+       - WAITER will take the order and forward it to CHEF
+       - CHEF will prepare the food to the customer 
+       -CLEANER will clean the tables, floor, utensils
+       - SERVER will serve the food to them and
+       - Ultimately MANAGER will manage all of them and runs the restaurant properly.
+
+4. This is how the OOPS CONCEPTS also works. It will make or manage our program and makes things simpler and helps you
+   to deal with larger and complex programs.
+
+=> HOW TO USE THE OOPS?
+-

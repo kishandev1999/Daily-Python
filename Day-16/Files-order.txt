@@ -2,3 +2,5 @@
 2.objects-and-classes.py (turtle example)
 3.python-packages.txt
 4.python-packages.py
+5.coffee-machine-in-oops.py
+6.oops-coffee-machine(F)

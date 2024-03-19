@@ -23,6 +23,11 @@ When it comes to accessing these attributes in a way :
 car.stop()
 //object.method()//
 '''
+
+'''
+NOTE: 
+CLASS is declared in PASCAL case. Capital Letter at each word
+'''
 timmy   = Turtle()
 #object   class
 

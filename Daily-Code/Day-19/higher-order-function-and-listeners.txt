@@ -1,0 +1,67 @@
+#LISTENRS: 
+When we are giving any inputs, this LISTENERS will listen to it and perform the action.
+
+Example:
+-> How can you provide the inputs?
+A. Through INPUT DEVICES like KEYBOARD, MOUSE etc..,
+
+If you press any key or give any input. This listeners will take action according to our code.
+
+In turtle:
+tim = Turtle()
+screen=Screen()
+
+
+def move_forwards():
+    tim.forward(10)
+
+
+screen.onkey(key="space", fun=move_forwards)
+#fun=move_forwards - No need to add paranthesis here, (when you are passing the function as a parameter)
+
+
+#FUNCTIONS AS INPUT:
+SYNTAX:
+
+def function_a(something)
+    #Do this with something
+    #Then do this
+    #Finally do this
+
+
+def function_b():
+    #Do this
+
+function_a(function_b)
+
+#EXAMPLE:
+def add(nl, n2):
+    return n1 + n2
+
+def subtract(nl, n2):
+    return nl — n2
+
+def multiply(nl, n2) :
+    return nl * n2
+
+def divide(nl, n2):
+    return nl / n2
+
+def calculator(nl, n2, func):
+    return func(nl, n2)
+
+result= calculator(2,3,add)
+print( result)
+
+#THIS IS CALLED HIGHER ORDER FUNCTION
+//This function is used in the inside an other function//
+
+
+#INSTANCES
+            Object    Class
+Instance    timmy     = Turtle()
+Instance    tommy     = Turtle()
+
+
+
+

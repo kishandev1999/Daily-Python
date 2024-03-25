@@ -40,7 +40,7 @@ You can use t.Turtle()
 #If you want to use any new MODULES. First, we need to install them.
 
 timmy_turtle   = Turtle()
-timmy_turtle.shape('turtle')
+#timmy_turtle.shape('arrow')
 timmy_turtle.color('red')
 
 '''
@@ -123,7 +123,16 @@ while True:
     timmy_turtle.color(colors_rand)
     
 '''
-    
+
+timmy_turtle.circle(50)
+timmy_turtle.settiltangle(30)
+timmy_turtle.setposition(5,0)
+timmy_turtle.circle(50)
+timmy_turtle.settiltangle(60)
+timmy_turtle.circle(50)
+timmy_turtle.settiltangle(80)
+timmy_turtle.circle(50)
+timmy_turtle.settiltangle(100)
 
     
     
